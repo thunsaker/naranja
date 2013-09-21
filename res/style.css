@@ -27,11 +27,14 @@ h2 {
 
 .section {
 	padding-top:10em;
-	/*padding:200px 150px 0 150px;*/
 	padding-right:10%;
 	padding-left:10%;
 	color:#eee;
 	height:700px;
+}
+
+.section.top {
+	padding-top:100px;
 }
 
 .section h2 {
@@ -84,6 +87,10 @@ a:visited a:active {
 	border:solid 1px #ccc;
 	padding:3px;
 	margin:20px;
+}
+
+.play img {
+	margin:auto;
 }
 
 .bio {
@@ -325,8 +332,12 @@ a:visited a:active {
 			padding: 0;
 		}
 
+		.section.top {
+			padding-top:50px;
+		}
+
 		.top {
-			padding-bottom: 5px;
+			padding: 0;
 		}
 
 		.section {
@@ -345,5 +356,4 @@ a:visited a:active {
 		#screen_bitdroid {
 			margin-top:-10em;
 		}
-
 	}
